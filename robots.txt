@@ -1,0 +1,12 @@
+# angie-ceo.com robots.txt
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /thank-you.html
+
+Sitemap: https://angie-ceo.com/sitemap.xml
+
+# EU Content Signals
+search: yes
+ai-input: yes
+ai-train: no
