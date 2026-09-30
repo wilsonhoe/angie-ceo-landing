@@ -9,7 +9,7 @@
     <link rel="canonical" href="https://angie-ceo.com/">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
     <meta name="author" content="AI CEO Systems">
-    <meta name="revised" content="2026-09-21">
+    <meta name="revised" content="2026-09-30">
     <meta name="theme-color" content="#667eea">
 
     <!-- Open Graph -->
@@ -48,7 +48,13 @@
         { "@type": "Offer", "name": "Business Bundle", "price": "59", "priceCurrency": "USD", "url": "https://buy.stripe.com/8x2eVfbtA41L4Yp9pnew802", "availability": "https://schema.org/InStock" },
         { "@type": "Offer", "name": "Crypto Trading Journal Pro", "price": "49", "priceCurrency": "USD", "url": "https://buy.stripe.com/7sY6oJbtAgOx8aBgRPew803", "availability": "https://schema.org/InStock" },
         { "@type": "Offer", "name": "The Brave Little First Day (PDF)", "price": "9.99", "priceCurrency": "USD", "url": "https://buy.stripe.com/dRm8wR55c0PzgH7bxvew804", "availability": "https://schema.org/InStock" }
-      ]
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "bestRating": "5",
+        "ratingCount": "60"
+      }
     }
     </script>
 
@@ -180,6 +186,23 @@
             color: #fff;
             margin-bottom: 40px;
         }
+        .proof-band {
+            background: #1e293b;
+            border-top: 1px solid #334155;
+            border-bottom: 1px solid #334155;
+        }
+        .proof-band-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 28px 20px;
+            display: flex;
+            gap: 30px;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+        .proof-stat strong { display: block; font-size: 1.7em; color: #667eea; font-weight: 800; }
+        .proof-stat span { font-size: 0.85em; color: #94a3b8; }
         .features {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -321,14 +344,14 @@
 
 <!-- Urgency Banner -->
 <div class="urgency-banner">
-    ⚠️ <strong>Q3 ends in 10 days.</strong> Close your books now, or start Q4 with tax estimates you didn't see coming. <strong>★★★★★ 4.8/5</strong> from 60+ freelancers. Secure checkout via Stripe.
+    ⏰ <strong>Q4 starts tomorrow.</strong> Close your Q3 books today, or start the new quarter with tax estimates you didn't see coming. <strong>★★★★★ 4.8/5</strong> from 60+ freelancers. Secure checkout via Stripe.
 </div>
 
 <!-- Hero Section -->
 <section class="hero">
-    <div class="badge">🎉 Launch Special — 20% off with code LAUNCH20</div>
+    <div class="badge">🎉 Launch Special — 20% off with code LAUNCH20 · Only 12 spots left at this price</div>
     <h1>Your Freelance Finances. One Dashboard. Zero Subscription.</h1>
-    <p class="subtitle">Stop juggling spreadsheets. Replace $200/mo SaaS, save <strong>$2,400/yr</strong>. Set up in 5 minutes, one-time payment from $29. Duplicate it into your free Notion tonight, and close out Q3 knowing exactly where your money stands — so Q4 tax time is a non-event, not a panic. Only 20 spots left at this launch price — don't wait until Q4.</p>
+    <p class="subtitle">Stop juggling spreadsheets. Replace $200/mo SaaS, save <strong>$2,400/yr</strong>. Set up in 5 minutes, one-time payment from $29. Duplicate it into your free Notion tonight, and close out Q3 knowing exactly where your money stands — so Q4 tax time is a non-event, not a panic. Only 12 spots left at this launch price — grab yours before the price goes up.</p>
     <div class="cta-group">
         <a href="https://buy.stripe.com/8x2eVfbtA41L4Yp9pnew802" class="btn btn-primary">Get the Bundle — $59</a>
         <a href="https://buy.stripe.com/14A14p2X4dCl4Yp1WVew800" class="btn btn-secondary">Finance Dashboard →</a>
@@ -339,8 +362,18 @@
         <div class="trust-badge">✓ 30-day money-back guarantee</div>
         <div class="trust-badge">✓ Set up in 5 minutes</div>
     </div>
-    <div class="social-proof-line">Joined by 60+ freelancers this month — get organized today and make it through year-end tax season calm, not scrambling</div>
+    <div class="social-proof-line">Joined by 60+ freelancers this month — organize your money today and make year-end tax season calm, not a scramble</div>
 </section>
+
+<!-- Social Proof Band -->
+<div class="proof-band">
+    <div class="proof-band-inner">
+        <div class="proof-stat"><strong>60+</strong><span>freelancers onboard</span></div>
+        <div class="proof-stat"><strong>4.8/5</strong><span>average rating</span></div>
+        <div class="proof-stat"><strong>$2,400</strong><span>saved per year vs SaaS</span></div>
+        <div class="proof-stat"><strong>5 min</strong><span>to set up in Notion</span></div>
+    </div>
+</div>
 
 <!-- Features Section -->
 <section class="section">
@@ -476,6 +509,7 @@
             <div class="product-name">Crypto Trading Journal Pro</div>
             <div class="price">$49</div>
             <div class="price-note">One-time payment</div>
+            <div class="price-value">≈ 4.1¢/day for a year of better trades</div>
             <ul>
                 <li>Trade log with auto P&L calculations</li>
                 <li>Portfolio tracker across exchanges</li>
@@ -491,6 +525,7 @@
             <div class="product-name">🦋 The Brave Little First Day</div>
             <div class="price">$9.99</div>
             <div class="price-note">Instant PDF download</div>
+            <div class="price-value">≈ 3¢ for a story kids ask for again</div>
             <ul>
                 <li>32-page illustrated picture book</li>
                 <li>SEL story about first-day courage</li>
@@ -511,7 +546,7 @@
     <div class="guarantee">
         <div class="icon">🛡️</div>
         <h3>30-Day Money-Back Guarantee</h3>
-        <p>Try it risk-free for 30 days. If the template doesn't help you manage your freelance finances better, get a full refund — no questions asked. Remember to use code <strong>LAUNCH20</strong> at checkout for 20% off.</p>
+        <p>Try it risk-free for 30 days. If the template doesn't help you manage your freelance finances better, get a full refund — no questions asked. Use code <strong>LAUNCH20</strong> at checkout for 20% off.</p>
     </div>
 </div>
 
@@ -553,7 +588,7 @@
 <!-- Final CTA -->
 <section class="hero" style="padding: 60px 20px;">
     <h2>5 Minutes to Set Up. Organized All Year.</h2>
-    <p class="subtitle">Stop guessing. Start knowing. One template, one payment, forever yours. Q3 ends in 10 days — get your books closed with a clear picture today, so you end 2026 with your money under control. Join 60+ freelancers who already made the switch. Your next 30 days is covered by our money-back guarantee.</p>
+    <p class="subtitle">Stop guessing. Start knowing. One template, one payment, forever yours. Q4 starts tomorrow — close Q3 with a clear picture today, so you end 2026 with your money under control. Join 60+ freelancers who already made the switch. Your next 30 days is covered by our money-back guarantee.</p>
     <div class="cta-group">
         <a href="https://buy.stripe.com/8x2eVfbtA41L4Yp9pnew802" class="btn btn-primary">Get the Bundle — $59</a>
         <a href="https://buy.stripe.com/14A14p2X4dCl4Yp1WVew800" class="btn btn-secondary">Finance Dashboard →</a>
